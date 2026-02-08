@@ -2,7 +2,7 @@
   <footer class="bg-[linear-gradient(0,_rgb(23_41_64_/_33%),_transparent)] pb-24 pt-2.5 text-center">
     <div class="container [text-shadow:1px_1px_0px_rgb(36_65_102_/_50%)]">
       <p class="space-y-2 font-medium">
-        &copy;{{ $dayjs().year() }}
+        &copy;2025-{{ $dayjs().year() }}
         <RouterLink
           to="/"
           aria-label="Home"
