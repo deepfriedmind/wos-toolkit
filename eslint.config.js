@@ -216,5 +216,5 @@ export default withNuxt(
       ],
     },
   },
-  globalIgnores(['.github/docs', 'public']),
+  globalIgnores(['public']),
 )
