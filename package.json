@@ -22,14 +22,13 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "pnpm exec simple-git-hooks",
+    "prepare": "simple-git-hooks",
     "preview": "nuxt preview",
     "test": "vitest",
     "typecheck": "nuxi typecheck"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm gate",
-    "pre-merge-commit": "pnpm gate",
+    "pre-push": "pnpm gate",
     "prepare-commit-msg": "pnpm exec devmoji --edit"
   },
   "dependencies": {
