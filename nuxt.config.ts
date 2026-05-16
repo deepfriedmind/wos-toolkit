@@ -42,7 +42,7 @@ export default defineNuxtConfig({
         { rel: 'manifest', href: '/site.webmanifest' },
       ],
       meta: [
-        { name: 'apple-mobile-web-app-title', content: 'WoS Tools' },
+        { name: 'apple-mobile-web-app-title', content: 'WoS Toolkit' },
       ],
     },
   },
@@ -50,14 +50,14 @@ export default defineNuxtConfig({
     'primeicons/primeicons.css',
   ],
   site: {
-    url: 'https://wostools.netlify.app',
-    name: 'WoS Tools❄️',
+    url: 'https://wostoolkit.netlify.app',
+    name: 'WoS Toolkit❄️',
     defaultLocale: 'en',
     currentLocale: 'en',
   },
   runtimeConfig: {
     public: {
-      storagePrefix: 'wos-tools_',
+      storagePrefix: 'wos-toolkit_',
     },
   },
   watch: ['primevue.config.ts'],
@@ -115,7 +115,7 @@ export default defineNuxtConfig({
     },
   },
   piniaPluginPersistedstate: {
-    key: 'wos-tools_%id',
+    key: 'wos-toolkit_%id',
     storage: 'localStorage',
   },
   primevue,

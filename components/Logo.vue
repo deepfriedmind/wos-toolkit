@@ -29,7 +29,8 @@ const classes = computed(() => twMerge(baseClasses, attributes.class as string))
       class="-z-10 translate-x-[-0.1em]"
       size="0.7em"
       name="fluent-emoji:snowflake"
+      mode="svg"
     />
-    <span class="translate-x-[-0.3em]">Tools</span>
+    <span class="translate-x-[-0.3em]">Toolkit</span>
   </component>
 </template>

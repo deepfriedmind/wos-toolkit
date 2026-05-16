@@ -1,6 +1,17 @@
 {
-  "name": "nuxt-app",
+  "name": "wos-toolkit",
+  "displayName": "WoS Toolkit",
   "private": true,
+  "homepage": "https://github.com/deepfriedmind/wos-toolkit#readme",
+  "bugs": {
+    "url": "https://github.com/deepfriedmind/wos-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepfriedmind/wos-toolkit.git"
+  },
+  "license": "AGPL-3.0-only",
+  "author": "deepfriedmind",
   "type": "module",
   "scripts": {
     "build": "nuxt build",

@@ -1,6 +1,6 @@
 {
-  "name": "WoS Tools",
-  "short_name": "WoSTools",
+  "name": "WoS Toolkit",
+  "short_name": "WoSToolkit",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
