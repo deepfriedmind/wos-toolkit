@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] - 2026-05-16
+
+### ✨ Features
+
+- Rebrand from WoS Tools to WoS Toolkit
+
+### 🐛 Bug Fixes
+
+- *(footer)* Update copyright to display year range from 2025
+
+### ♻️ Refactor
+
+- Rename CopyButton test file to CopyButton.client.test.ts
+
+### 📚 Documentation
+
+- Create LICENSE
+- Update README
+- *(README)* Update `README`
+- Remove unused docs
+- *(README)* Add gh pages badge
+
+### 🚨 Testing
+
+- Disable nuxt-og-image when running tests
+
+### 🔧 Miscellaneous Tasks
+
+- Update tool versions
+- *(ide)* Update VSCode settings
+- *(gitignore)* Update `.gitignore`
+- *(hooks)* Add pre-commit and pre-merge-commit hooks
+- *(deploy)* Change deployment to GitHub Pages
+- Delete logo page
+- *(hooks)* Change pre-commit to pre-push
+- Bump all GitHub Actions to Node 24 releases
+
 ## [1.3.7] - 2025-06-30
 
 ### ♻️ Refactor
@@ -20,6 +57,7 @@ All notable changes to this project will be documented in this file.
 - Remove unused `.roomodes` configuration file
 - *(release)* 1.3.6
 - *(release)* Update git-cliff command to improve version parsing
+- *(release)* 1.3.7
 
 ## [1.3.5] - 2025-05-15
 
