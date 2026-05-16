@@ -109,6 +109,7 @@ export default defineNuxtConfig({
     },
   },
   ogImage: {
+    enabled: process.env.VITEST === undefined,
     fonts: ['Space+Grotesk:400', 'Space+Grotesk:700'],
     defaults: {
       emojis: 'fluent-emoji',
