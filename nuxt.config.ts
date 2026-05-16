@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     'primeicons/primeicons.css',
   ],
   site: {
-    url: 'https://wostoolkit.netlify.app',
+    url: 'https://wostoolkit.deepfriedmind.com',
     name: 'WoS Toolkit❄️',
     defaultLocale: 'en',
     currentLocale: 'en',
