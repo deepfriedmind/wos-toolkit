@@ -2,14 +2,11 @@
   "recommendations": [
     "antfu.goto-alias",
     "antfu.iconify",
-    "bradlc.vscode-tailwindcss",
     "cpylua.language-postcss",
     "dbaeumer.vscode-eslint",
     "ellreka.tailwindcss-highlight",
     "nuxtr.nuxtr-vscode",
-    "romanpeshkov.tailwind-nested",
     "simonhe.common-intellisense",
-    "stivo.tailwind-fold",
     "vitest.explorer",
     "Vue.volar"
   ]

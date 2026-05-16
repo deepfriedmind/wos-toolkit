@@ -1,16 +1,16 @@
 {
-  "cSpell.ignorePaths": [
-    "package-lock.json",
-    "node_modules",
-    "vscode-extension",
-    ".git/{info,lfs,logs,refs,objects}/**",
-    ".git/{index,*refs,*HEAD}",
-    ".vscode",
-    ".vscode-insiders",
-    "CHANGELOG.md"
-  ],
   "common-intellisense.ui": [
     "primevue4"
+  ],
+  "cSpell.ignorePaths": [
+    ".git/{index,*refs,*HEAD}",
+    ".git/{info,lfs,logs,refs,objects}/**",
+    ".vscode",
+    ".vscode-insiders",
+    "CHANGELOG.md",
+    "node_modules",
+    "package-lock.json",
+    "vscode-extension"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -70,11 +70,7 @@
     "pnpm-lock.yaml": true
   },
   "git.inputValidationSubjectLength": 72,
-  "github.copilot.chat.commitMessageGeneration.instructions": [
-    {
-      "file": ".github/copilot-commit-message-instructions.md"
-    }
-  ],
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
   "nuxtr.defaultPackageManager": "pnpm",
   "nuxtr.piniaFiles.defaultTemplate": "setup",
   "nuxtr.vueFiles.firstTag": "script",
@@ -85,7 +81,8 @@
   "peacock.color": "#254166",
   "prettier.enable": false,
   "search.exclude": {
-    ".github/docs": true
+    ".github/docs": true,
+    "pnpm-lock.yaml": true
   },
   "tailwindCSS.classAttributes": [
     "appear-active-class",
@@ -114,10 +111,6 @@
     ]
   ],
   "tailwindCSS.rootFontSize": 16,
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "vue.complete.casing.props": "kebab",
-  "vue.complete.casing.tags": "pascal",
-  "vue.updateImportsOnFileMove.enabled": false,
   "workbench.colorCustomizations": {
     "commandCenter.border": "#e7e7e799",
     "sash.hoverBorder": "#33598b",
