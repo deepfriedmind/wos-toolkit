@@ -13,13 +13,7 @@ Built with Nuxt 3 (Vue 3/TypeScript), PrimeVue, and Tailwind CSS.
 
 If using [mise](https://mise.jdx.dev/), simply run `mise dev`. Otherwise:
 
-Install the Node and pnpm versions listed in [`.tool-versions`](.tool-versions).
-
-### Install commit hooks
-
-```sh
-npx simple-git-hooks
-```
+Install the Node and pnpm versions listed in [`mise.toml`](mise.toml).
 
 ### Install dependencies
 
